@@ -45,9 +45,60 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Resources\100_points.csv" />
+    <None Include="Resources\MaxSubArray.csv" />
+    <None Include="Resources\MaxSubArray.dat" />
+    <None Include="Resources\MaxSubArray_01.csv" />
+    <None Include="Resources\MaxSubArray_02.csv" />
+    <None Include="Resources\MaxSubArray_03.csv" />
+    <None Include="Resources\MaxSubArray_04.csv" />
+    <None Include="Resources\MaxSubArray_05.csv" />
+    <None Include="Resources\MaxSubArray_06.csv" />
+    <None Include="Resources\MaxSubArray_07.csv" />
+    <None Include="Resources\MaxSubArray_08.csv" />
+    <None Include="Resources\MaxSubArray_09.csv" />
+    <None Include="Resources\MaxSubArray_10.csv" />
+    <None Include="Resources\MaxSubArray_11.csv" />
+    <None Include="Resources\MaxSubArray_12.csv" />
+    <None Include="Resources\MaxSubArray_13.csv" />
+    <None Include="Resources\MaxSubArray_14.csv" />
+    <None Include="Resources\MaxSubArray_15.csv" />
+    <None Include="Resources\MaxSubArray_16.csv" />
+    <None Include="Resources\MaxSubArray_17.csv" />
+    <None Include="Resources\MaxSubArray_18.csv" />
+    <None Include="Resources\MaxSubArray_19.csv" />
+    <None Include="Resources\MaxSubArray_20.csv" />
+    <None Include="Resources\MaxSubArray_21.csv" />
+    <None Include="Resources\MaxSubArray_22.csv" />
+    <None Include="Resources\MaxSubArray_23.csv" />
+    <None Include="Resources\MaxSubArray_24.csv" />
+    <None Include="Resources\MaxSubArray_25.csv" />
+    <None Include="Resources\MaxSubArray_26.csv" />
+    <None Include="Resources\MaxSubArray_27.csv" />
+    <None Include="Resources\MaxSubArray_28.csv" />
+    <None Include="Resources\MaxSubArray_29.csv" />
+    <None Include="Resources\MaxSubArray_30.csv" />
+    <None Include="Resources\MaxSubArray_31.csv" />
+    <None Include="Resources\MaxSubArray_32.csv" />
+    <None Include="Resources\MaxSubArray_33.csv" />
+    <None Include="Resources\MaxSubArray_34.csv" />
+    <None Include="Resources\MaxSubArray_35.csv" />
+    <None Include="Resources\TextbookData.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
