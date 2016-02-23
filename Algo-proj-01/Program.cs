@@ -9,6 +9,8 @@ namespace Algo_proj_01
 {
     class Program
     {
+
+        //todo this code works. Create objects(probably a struct) for subarrays to contain just low, high and sum and return that instead of an array
         static void Main(string[] args)
         {
             // create a static array to test data with..
